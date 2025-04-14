@@ -1,4 +1,24 @@
 body {
-    font-family: 'Crimson Pro', serif;
-    font-size: 48px;}
+    font-family: 'Crimson Pro', serif;}
 
+    #container {
+        width: 100%;
+        max-width: 588px;
+        margin: 56px auto 0px;
+        padding: 0 24px; 
+    }
+
+    #profile {
+        text-align: center;
+        padding: 24px;
+        font-size: 25px;
+      }
+    
+    #profile img {
+        width: 112px;
+        border-radius: 360px;
+    }
+
+footer{
+    text-align: center;
+}

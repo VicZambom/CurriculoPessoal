@@ -1,10 +1,13 @@
 * {
-  margin: 0px;
+  margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  
+  box-sizing: border-box; 
+  
 }
 
 body h1{
+  height: 150px;
   text-align: center;
   font-size: 50px;
   font-family: 'Crimson Pro', serif;
@@ -15,6 +18,9 @@ body h1{
 /* Deixa o container principal em linha (lado a lado) */
 #container {
   display: flex;
+  align-items: flex-start;
+
+  margin: 5px;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
@@ -25,13 +31,16 @@ body h1{
 /* Informações do perfil */
 
 #profile {
-  width: 600px;
-  text-align: left;
+  max-width: 600px;
+  
+  text-align: center;
   font-size: 30px;
+  padding: 20px;
 }
 
 #profile img{
-  width: 400px;
+  width: 500px;
+  padding: 20px;
   border-radius: 100px;
 }
 
@@ -43,7 +52,7 @@ body h1{
   text-decoration: none;         /* Remove o sublinhado do link */
   background-color: #c261b3;     /* Cor de fundo do botão */
   color: #641212;                  /* Cor do texto do botão */
-  font-size: 16px;               /* Tamanho da fonte */
+  font-size: 20px;               /* Tamanho da fonte */
   font-family: 'Crimson Pro', serif; 
   border-radius: 5px;            /* Bordas arredondadas */
   text-align: center;            /* Alinha o texto ao centro */
@@ -61,4 +70,7 @@ footer{
   bottom: 0;
   width: 100%;
   text-align: center;
+
+  font-weight: bolder;
+  font-style: italic;
 }

@@ -1,0 +1,20 @@
+body {
+    font-family: 'Crimson Pro', serif;
+    padding: 20px;
+    color: #333;
+    background-color: #fdfdfd;
+  }
+  
+  #sobre h2 {
+    color: #621111;
+    font-size: 28px;
+  }
+  
+  #formacao h2 {
+    color: #114762;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  

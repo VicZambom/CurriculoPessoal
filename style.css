@@ -1,13 +1,16 @@
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body h1{
   text-align: center;
   font-size: 50px;
   font-family: 'Crimson Pro', serif;
+
+  padding: 50px;
 }
 
 /* Deixa o container principal em linha (lado a lado) */
@@ -16,16 +19,17 @@ body h1{
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
-  padding: 40px;
+ 
+  
   font-family: 'Crimson Pro', serif;
 }
 
 /* Informações do perfil */
 
-#profile p h3 {
+#profile {
   width: 600px;
   text-align: left;
+  font-size: 30px;
 }
 
 #profile img{
@@ -37,36 +41,42 @@ body h1{
 .menu {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
+  align-items: center;
   
+  gap: 50px;
 }
 
 /* Container dos botões na horizontal */
 .botoes {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
 .botoes button {
-  color: #621111;
+  color: #690909;
   cursor: pointer;
   border-radius: 5px;
-  background-color: rgb(241, 175, 249);
+  background-color: rgb(215, 154, 222);
+
+  width: 155px;
+  height: 40px;
 
   font-family: 'Crimson Pro', serif;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .menu iframe {
-  width: 102.5%;
-  height: 400px;
+  width: 106%;
+  height: 600px;
   border: 0px;
 }
 
 
 footer{
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
